@@ -1,6 +1,7 @@
 #pragma once
 
 #include <string>
+#include <stdint.h>
 
 
 struct Settings {
@@ -8,6 +9,7 @@ struct Settings {
 	uint32_t num_voices = 32;
 	bool show_voices_used = false;
 	std::string tunings_directory = "";
+	std::string keyboard_mappings_directory = "";
 
 	std::string errors;
 
