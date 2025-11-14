@@ -1,6 +1,6 @@
 include(SubprojectVersion)
 
-include(SetupJuceTest)
+#include(SetupJuceTest)
 include(SetupCatchTest)
 include(SetupSFZero)
 

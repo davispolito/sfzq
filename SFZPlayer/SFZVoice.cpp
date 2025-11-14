@@ -226,7 +226,7 @@ void SFZVoice::render(
 			*out_r_64++ += r;
 			}
 		else if (out_l_64)
-			*out_l_64++ += (l + r) * 0.5d;
+			*out_l_64++ += (l + r) * 0.5;
 		else
 #endif
 		if (out_r_32) {
