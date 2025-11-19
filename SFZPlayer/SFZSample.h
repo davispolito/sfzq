@@ -16,6 +16,9 @@ class SFZSample {
 
 		bool load();
 		std::string short_name();
+		std::string get_path() {
+			return path;
+		}
 		void set_buffer(SampleBuffer* new_buffer);
 		SampleBuffer* detach_buffer();
 		void dump();
